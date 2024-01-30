@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stopwatch-container">
+        <div id="stopwatch"></div>
+        <div id = "control-buttons">
+            <button id="startBTN" onclick="startStopwatch()">Start</button>
+            <button id="pauseBTN" onclick="pauseStopwatch()">Pause</button>
+            <button id="resetBTN" onclick="setStopwatch()">Reset</button>
+            <button id="flagBTN" onclick="flagTime()">Flag</button>
+        </div>
+    </div>
+    
+    <div id="time-stamps">
+    </div>
+    <button id="clearBTN" hidden onclick="clearTimeStamps()">Clear</button>
+    <script src="script.js"></script>
+</body>
+</html>
