@@ -1,2 +1,2 @@
-![](./screeshots/screenshot1.png)
-![](./screeshots/screenshot2.png)
+![](screenshots/screenshot1.png)
+![](screenshots/screenshot2.png)
